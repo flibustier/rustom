@@ -1,0 +1,12 @@
+[package]
+name = "rustom"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.59"
+
+[dependencies]
+ferris-says = "0.2"
+rodio = "0.15.0"
+soloud = "1"
+chrono = "0.4"
+unidecode = "0.3.0"
