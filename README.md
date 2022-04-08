@@ -40,3 +40,13 @@ You will have the definition of the word at the end
           '_   -   _'
           / '-----' \
 ```
+
+### Download 
+
+Find the latest release [here](https://github.com/flibustier/rustom/releases/)
+
+### DIY build
+
+You need cargo and the rust toolchain
+
+`cargo build` or `cargo run`
