@@ -7,7 +7,9 @@ pub enum LetterResult {
     NotFound,
 }
 
-pub fn validate_guess(raw_solution: &str, guess: &str) -> (bool, Vec<(LetterResult, char)>) {
+pub type GuessResult = Vec<(LetterResult, char)>;
+
+pub fn validate_guess(raw_solution: &str, guess: &str) -> (bool, GuessResult) {
     let mut is_finished = true;
     let mut result = vec![];
     let solution = unidecode(raw_solution);
